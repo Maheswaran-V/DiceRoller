@@ -10,7 +10,7 @@ class DiceRoller extends StatefulWidget {
 }
 
 class _DiceRollerState extends State<DiceRoller> {
-  String randomImage = 'assets/images/dice-1.png';
+  String randomImage = 'assets/images/dice-5.png';
 
   void rollDice() {
     setState(() {
