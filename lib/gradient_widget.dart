@@ -10,14 +10,17 @@ class GradientWidget extends StatelessWidget {
   @override
   Widget build(context) {
     return Container(
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            colors: [color1, color2],
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-          ),
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          colors: [
+            color1,
+            color2,
+          ],
         ),
-        child: const Center(child: DiceRoller()));
+      ),
+      child: const Center(
+        child: DiceRoller(),
+      ),
+    );
   }
 }
-

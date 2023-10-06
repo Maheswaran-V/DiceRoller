@@ -6,14 +6,17 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  const MyApp({key}) : super(key: key);
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: GradientWidget(Color.fromARGB(255, 46, 12, 105),Color.fromARGB(255, 24, 15, 145)),
+        body: GradientWidget(
+          Color.fromARGB(255, 46, 12, 105),
+           Color.fromARGB(255, 24, 15, 145),
+        ),
       ),
     );
   }
