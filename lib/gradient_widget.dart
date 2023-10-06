@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 class GradientWidget extends StatelessWidget {
   const GradientWidget(this.color1, this.color2, {key}) : super(key: key);
-  
+
   final Color color1;
   final Color color2;
 
@@ -20,3 +20,4 @@ class GradientWidget extends StatelessWidget {
         child: const Center(child: DiceRoller()));
   }
 }
+
