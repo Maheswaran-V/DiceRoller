@@ -14,7 +14,7 @@ class _DiceRollerState extends State<DiceRoller> {
 
   void rollDice() {
     setState(() {
-      randomImage = 'assets/images/dice-6.png';
+      randomImage = 'assets/images/dice-2.png';
     });
   }
 
